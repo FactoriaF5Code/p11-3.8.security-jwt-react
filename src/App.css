@@ -1,0 +1,16 @@
+header {
+  height: 50px;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+header span {
+  font-weight: 700;
+}
+
+img.puppy {
+  height: 300px;
+}

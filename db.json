@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "email": "owner@puppycenter.com",
+      "password": "$2a$10$GPsEEGvvSNav0CASiTS.p.H8m.IytU59Ukl.JwsnPjb.IQvfQjxFG",
+      "id": 1
+    }
+  ],
+  "puppies": [
+    {
+      "img": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg"
+    },
+    {
+      "img": "https://hips.hearstapps.com/hmg-prod/images/chow-chow-portrait-royalty-free-image-1652926953.jpg"
+    },
+    {
+      "img": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/gettyimages-464163411.jpg"
+    }
+  ]
+}
