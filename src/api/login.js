@@ -28,6 +28,8 @@ export const login = (onSuccess) => {
             }
         })
         .then(data => {
+            // guarda el nombre de usuario (email) 
+            // 
             setUserName(data.user.email);
             setToken(data.accessToken);
             onSuccess();

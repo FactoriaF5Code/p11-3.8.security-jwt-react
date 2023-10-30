@@ -1,15 +1,23 @@
 import { useEffect, useState } from "react";
+import { getToken } from "../api/login";
 
 const PuppyList = () => {
 
     const getPuppiesFromApi = () => {
 
+        const token = getToken();
+
+        const url = "http://localhost:8080/puppies";
+
         const options = {
-            // Completa las opciones para enviar
-            // el token que está guardado en el local storage tras hacer login
+            method: "get",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + token
+            }
         }
 
-        return fetch("http://localhost:8080/puppies", options)
+        return fetch(url, options)
             .then(response => {
                 if (response.ok) {
                     return response.json()
